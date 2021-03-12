@@ -117,6 +117,9 @@ export default defineComponent({
   name: "HelloWorld",
   props: {
     msg: String
+  },
+  setup(){
+    let a = 10;
   }
 });
 </script>
